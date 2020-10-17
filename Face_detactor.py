@@ -15,6 +15,6 @@ while True:
   cv2.imshow("Face Detactor",frame)
   key=cv2.waitKey(1)
 
-  if key==81 or key==113:
+  if key==81 or key==213:
    break
 webcam.release()
